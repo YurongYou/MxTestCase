@@ -45,7 +45,6 @@ int main(){
 	bool zici = true;
 	bool nozici = false;
 	RedBoy boy = new RedBoy;//default initializer is "()"-free
-	RedBoy boy2 = new RedBoy(3);
 	RedBoy[] boys = new RedBoy[3];
 	RedBoy[][][] boyss = new RedBoy[1][2][3];
 	Mo haha = new Mo;
@@ -106,7 +105,7 @@ int main(){
 	for (;;);
 	i = 0;
 	while(i < year) print(i);
-	while() ;
+	while(true) ;
 
 	//test for if
 	if (i < year){
@@ -121,13 +120,13 @@ int main(){
 	else print("too young!\\");
 
 	i = 0;
-	while(){
+	while(true){
 		if (i == year) break;
 		++i;
 	}
 
 	i = 0;
-	while(){
+	while(true){
 		if (i < year) {
 			++i;
 			continue;
