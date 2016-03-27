@@ -1,5 +1,6 @@
 int main(){
 	//just for testing precedence, no actural meanings
-	a = ++a+++b * c = d.e % f / g - h << 100000 >> 4 & ~i | j ^ k;
+	a = ++a+++b * (c = d.e % f / g - h << 100000 >> 4 & ~i | j ^ k);
+	a = b = c;
 	l = mo(n && o || p & q ^ r == s | t) / u;
 }

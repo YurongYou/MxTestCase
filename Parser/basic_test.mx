@@ -135,5 +135,9 @@ int main(){
 		break;
 	}
 
+
+	//some inherent function
+	print(boys.size());
+	print("asdqwe".length());
 	return 0;
 }
