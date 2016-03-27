@@ -45,7 +45,6 @@ int main(){
 	bool zici = true;
 	bool nozici = false;
 	RedBoy boy = new RedBoy;//default initializer is "()"-free
-	RedBoy boy2 = new RedBoy(3);
 	RedBoy[] boys = new RedBoy[3];
 	RedBoy[][][] boyss = new RedBoy[1][2][3];
 	Mo haha = new Mo;
