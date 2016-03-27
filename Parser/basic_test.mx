@@ -105,7 +105,7 @@ int main(){
 	for (;;);
 	i = 0;
 	while(i < year) print(i);
-	while() ;
+	while(true) ;
 
 	//test for if
 	if (i < year){
@@ -120,13 +120,13 @@ int main(){
 	else print("too young!\\");
 
 	i = 0;
-	while(){
+	while(true){
 		if (i == year) break;
 		++i;
 	}
 
 	i = 0;
-	while(){
+	while(true){
 		if (i < year) {
 			++i;
 			continue;
