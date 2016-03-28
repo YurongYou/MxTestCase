@@ -1,0 +1,27 @@
+class BigInteger
+{
+    int Ha; \\I'm a mistake, not a comment.
+}; //notice, no ';' here
+int main()
+{
+    int a, b;
+    a = b = 0;
+    BigInteger t;
+    t = new BigInteger;
+    int c;
+    c = a + b;
+    printf("%d\n", c);
+    
+    printf("%d\n", "\\ \\ \/\/".size());
+    
+    for(int x = 0;;)
+    {
+        while() //wrong
+        {
+            return new BigInteger; //I think it's correct
+        }
+        const int x = 0; //I don't know if it's correct
+    }
+    
+    return 0;
+}
