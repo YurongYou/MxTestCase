@@ -2,7 +2,7 @@ class BigInteger
 {
     int Ha; \\I'm a mistake, not a comment.
 }; //notice, no ';' here
-int main()
+BigiInteger fun()
 {
     int a, b;
     a = b = 0;
@@ -22,6 +22,11 @@ int main()
         }
         const int x = 0; //I don't know if it's correct
     }
-    
+    return null;
+}
+
+int main()
+{
+    BigInteger x = fun();
     return 0;
 }
