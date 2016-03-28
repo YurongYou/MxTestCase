@@ -14,7 +14,7 @@ int main()
     
     printf("%d\n", "\\ \\ \/\/".size());
     
-    for(int x = 0;;)
+    for(int x = 0;;) //I think it's not correct
     {
         while() //wrong
         {
