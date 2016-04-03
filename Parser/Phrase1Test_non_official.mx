@@ -1,4 +1,5 @@
-int n, m, bj = 1;
+int n;
+int m; int bj = 1;
 
 class xx
 {
